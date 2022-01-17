@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-eureka-server" />
+        <module name="cloudAlibaba-provide-payment9002" />
+        <module name="cloudAlibaba-provide-payment9001" />
+        <module name="OrderNacos" />
+        <module name="cloud-config-nacos-client" />
+        <module name="cloud-6001" />
+        <module name="cloud-eureka-server1-7003" />
+        <module name="cloud-config-3344" />
+        <module name="cloud-cosumer-6003" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-7001" target="8" />
+      <module name="cloud-cosumer-6002" target="1.8" />
+      <module name="cloud-eurekak-server2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
