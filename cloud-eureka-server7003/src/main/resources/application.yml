@@ -11,4 +11,4 @@ eureka:
       defaultZone: http://localhost:7002/eureka/,http://localhost:7003/eureka/
 spring:
   application:
-    name: eureka-server-7003
+    name: cloud-eureka-server-7003
