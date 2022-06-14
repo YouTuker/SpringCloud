@@ -13,11 +13,9 @@ public class PaymentController {
 
 
     @GetMapping(value="/payment/nacos/{id}")
-    @ResponseBody
     public String getSomeThing(@PathVariable("id") Integer id){
-        System.out.println("已经到达9001");
-
-        return "9001";
+        System.out.println("进入9001");
+        return "111111111111111";
     }
 
 }

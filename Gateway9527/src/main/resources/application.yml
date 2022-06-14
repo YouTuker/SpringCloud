@@ -1,0 +1,28 @@
+server:
+  port: 7524
+
+
+spring:
+  application:
+    name: Gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: cloudAlibaba-provide-payment
+          uri: lb://cloudAlibaba-provide-payment
+          predicates:
+            - Path=/payment/nacos/**
+
+        - id: Feign-cloud
+          uri: lb://Feign-Cloud
+          predicates:
+           - Path=/feignTest
+
+
+

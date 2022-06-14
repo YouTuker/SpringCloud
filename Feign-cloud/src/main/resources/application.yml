@@ -1,13 +1,14 @@
 server:
-  port: 9001
+  port: 10010
 
 spring:
   application:
-    name: cloudAlibaba-provide-payment
+    name: Feign-Cloud
   cloud:
     nacos:
       discovery:
         server-addr: localhost:8848
+
 
 management:
   endpoint:

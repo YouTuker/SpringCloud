@@ -1,5 +1,0 @@
-spring:
-  profiles:
-    active: dev # 表示生产环境
-
-config.info: from localhost

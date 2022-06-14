@@ -1,0 +1,21 @@
+server:
+  port: 8401
+
+
+spring:
+  application:
+    name: Sentinel_8401
+  cloud:
+    sentinel:
+      transport:
+        dashboard: http://localhost:8080
+        port: 8719
+management:
+  endpoint:
+    web:
+      exposure:
+        include: '*'
+
+
+
+

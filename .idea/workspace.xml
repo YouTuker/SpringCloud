@@ -1,78 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6986595-dff1-40d7-8d7a-e6f6f39b404d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderNacos/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderNacos/src/main/java/com/atguigu/Controller/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderNacos/src/main/java/com/atguigu/Controller/OrderNacosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderNacos/src/main/java/com/atguigu/OrderNacosMain8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderNacos/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderNacos/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderNacos/target/classes/com/atguigu/Controller/Configuration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderNacos/target/classes/com/atguigu/Controller/OrderNacosController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderNacos/target/classes/com/atguigu/OrderNacosMain8001.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-6001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-6001/src/main/java/atgugui/Controller/EurekaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-6001/src/main/java/atgugui/cloud6001Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-6001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-6001/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-6001/target/classes/atgugui/cloud6001Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-3344/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-3344/src/main/java/com/atguigu/ConfigCenter3344Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-3344/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-3344/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-3344/target/classes/com/atguigu/ConfigCenter3344Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-nacos-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-nacos-client/src/main/java/com/atguigu/cloudConfig/Controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-nacos-client/src/main/java/com/atguigu/cloudConfig/NacosConfigClientMain3377.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-nacos-client/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-nacos-client/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-nacos-client/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-nacos-client/target/classes/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-nacos-client/target/classes/com/atguigu/cloudConfig/Controller/ConfigClientController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-nacos-client/target/classes/com/atguigu/cloudConfig/NacosConfigClientMain3377.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-cosumer-6003/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-cosumer-6003/src/main/java/com/atguigu/cloudMain6003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-cosumer-6003/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-cosumer-6003/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-cosumer-6003/target/classes/com/atguigu/cloudMain6003.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server/src/main/java/com/atguigu/eurekaMain7002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server/target/classes/com/atguigu/eurekaMain7002.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server1-7003/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server1-7003/src/main/java/com/atguigu/cloudServerMain7003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server1-7003/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server1-7003/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server1-7003/target/classes/com/atguigu/cloudServerMain7003.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provide-payment9001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provide-payment9001/src/main/java/com/atguigu/Controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provide-payment9001/src/main/java/com/atguigu/cloudPayment9001Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provide-payment9001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provide-payment9001/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provide-payment9001/target/classes/com/atguigu/Controller/PaymentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provide-payment9001/target/classes/com/atguigu/cloudPayment9001Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provide-payment9002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provide-payment9002/src/main/java/com/atguigu/CloudPayment9002Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provide-payment9002/src/main/java/com/atguigu/Controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provide-payment9002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provide-payment9002/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provide-payment9002/target/classes/com/atguigu/CloudPayment9002Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provide-payment9002/target/classes/com/atguigu/Controller/PaymentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudAlibaba-provide-payment9002/target/classes/com/atguigu/cloudPayment9001Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="b6986595-dff1-40d7-8d7a-e6f6f39b404d" name="Default Changelist" comment="cloud-first-commit">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feign-cloud/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feign-cloud/src/main/java/com/atguigu/Controller/FeignTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feign-cloud/src/main/java/com/atguigu/Feign/FeignTo9001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feign-cloud/src/main/java/com/atguigu/FeignCloud10010.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feign-cloud/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway9527/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway9527/src/main/java/com/atguigu/Gateway7524.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway9527/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Initial_test/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Initial_test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Initial_test/src/main/java/com/example/initial_test/Aspect/WebLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Initial_test/src/main/java/com/example/initial_test/Config/BookConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Initial_test/src/main/java/com/example/initial_test/Config/BookInterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Initial_test/src/main/java/com/example/initial_test/Controller/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Initial_test/src/main/java/com/example/initial_test/Controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Initial_test/src/main/java/com/example/initial_test/Filter/BookFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Initial_test/src/main/java/com/example/initial_test/InitialTestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Initial_test/src/main/java/com/example/initial_test/Interceptor/BookInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Initial_test/src/main/java/com/example/initial_test/Service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Initial_test/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Initial_test/src/test/java/com/example/initial_test/InitialTestApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-sentinel-8080/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-sentinel-8080/src/main/java/com/atgugui/Controller/SentinelTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-sentinel-8080/src/main/java/com/atgugui/SentinelMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-sentinel-8080/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderNacos/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderNacos/target/classes/com/atguigu/Controller/Configuration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderNacos/target/classes/com/atguigu/Controller/OrderNacosController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderNacos/target/classes/com/atguigu/OrderNacosMain8001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-6001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-6001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-6001/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-6001/target/classes/atgugui/cloud6001Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-3344/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-3344/target/classes/com/atguigu/ConfigCenter3344Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-nacos-client/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-nacos-client/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-nacos-client/target/classes/com/atguigu/cloudConfig/Controller/ConfigClientController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-nacos-client/target/classes/com/atguigu/cloudConfig/NacosConfigClientMain3377.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-cosumer-6003/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-cosumer-6003/target/classes/com/atguigu/cloudMain6003.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server/target/classes/com/atguigu/eurekaMain7002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server1-7003/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server1-7003/target/classes/com/atguigu/cloudServerMain7003.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudAlibaba-provide-payment9001/src/main/java/com/atguigu/Controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudAlibaba-provide-payment9001/src/main/java/com/atguigu/Controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudAlibaba-provide-payment9001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudAlibaba-provide-payment9001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudAlibaba-provide-payment9001/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudAlibaba-provide-payment9001/target/classes/com/atguigu/Controller/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudAlibaba-provide-payment9001/target/classes/com/atguigu/cloudPayment9001Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudAlibaba-provide-payment9002/src/main/java/com/atguigu/Controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudAlibaba-provide-payment9002/src/main/java/com/atguigu/Controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudAlibaba-provide-payment9002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudAlibaba-provide-payment9002/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudAlibaba-provide-payment9002/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudAlibaba-provide-payment9002/target/classes/com/atguigu/CloudPayment9002Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudAlibaba-provide-payment9002/target/classes/com/atguigu/Controller/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudAlibaba-provide-payment9002/target/classes/com/atguigu/cloudPayment9001Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,17 +80,26 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="E:\maven_environment\apache-maven-3.8.3\maven-repo" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../maven_environment/apache-maven-3.8.3" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven_environment/apache-maven-3.8.3" />
         <option name="userSettingsFile" value="E:\maven_environment\apache-maven-3.8.3\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -123,11 +128,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GitSpace/git-Demo1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javaSE" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -136,7 +141,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosConfigClientMain3377">
+  <component name="RunManager" selected="Spring Boot.FeignCloud10010">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -161,6 +166,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FeignCloud10010" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Feign-cloud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.FeignCloud10010" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Gateway7524" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Gateway9527" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.Gateway7524" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InitialTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Initial_test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.initial_test.InitialTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NacosConfigClientMain3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-nacos-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloudConfig.NacosConfigClientMain3377" />
@@ -177,6 +215,20 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.OrderNacosMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentinelMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-sentinel-8080" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atgugui.SentinelMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringInitializrApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring_Initializr" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring_initializr.SpringInitializrApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,39 +267,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cloudServerMain7003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="cloudServerMain7003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-eureka-server1-7003" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloudServerMain7003" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="eurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="eurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-eureka-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.eurekaMain7002" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.cloud6001Main" />
+      <item itemvalue="Spring Boot.cloudMain6003" />
+      <item itemvalue="Spring Boot.cloudPayment9001Main (1)" />
+      <item itemvalue="Spring Boot.eurekaMain7002" />
+      <item itemvalue="Spring Boot.InitialTestApplication" />
+      <item itemvalue="Spring Boot.NacosConfigClientMain3377" />
+      <item itemvalue="Spring Boot.SentinelMain" />
+      <item itemvalue="Spring Boot.SpringInitializrApplication" />
+      <item itemvalue="Spring Boot.cloudServerMain7003" />
+      <item itemvalue="Spring Boot.cloudPayment9001Main" />
+      <item itemvalue="Spring Boot.Gateway7524" />
+      <item itemvalue="Spring Boot.ConfigCenter3344Main" />
+      <item itemvalue="Spring Boot.OrderNacosMain8001" />
+      <item itemvalue="Spring Boot.FeignCloud10010" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.FeignCloud10010" />
+        <item itemvalue="Spring Boot.cloudPayment9001Main" />
+        <item itemvalue="Spring Boot.Gateway7524" />
         <item itemvalue="Spring Boot.ConfigCenter3344Main" />
         <item itemvalue="Spring Boot.OrderNacosMain8001" />
-        <item itemvalue="Spring Boot.cloudPayment9001Main" />
-        <item itemvalue="Spring Boot.cloudServerMain7003" />
-        <item itemvalue="Spring Boot.eurekaMain7002" />
       </list>
     </recent_temporary>
   </component>
@@ -267,8 +323,28 @@
       <workItem from="1641877468738" duration="2771000" />
       <workItem from="1642129310696" duration="14194000" />
       <workItem from="1642215061415" duration="7844000" />
-      <workItem from="1642403392853" duration="2240000" />
+      <workItem from="1642403392853" duration="6921000" />
+      <workItem from="1643200769440" duration="2848000" />
+      <workItem from="1643262013473" duration="6397000" />
+      <workItem from="1643440921752" duration="5674000" />
+      <workItem from="1643521785834" duration="6650000" />
+      <workItem from="1643551218593" duration="64000" />
+      <workItem from="1643551299947" duration="1039000" />
+      <workItem from="1643597053765" duration="1196000" />
+      <workItem from="1643714827597" duration="226000" />
+      <workItem from="1643790440174" duration="8090000" />
+      <workItem from="1643856095784" duration="12281000" />
+      <workItem from="1643975522344" duration="65000" />
+      <workItem from="1655182909637" duration="825000" />
     </task>
+    <task id="LOCAL-00001" summary="cloud-first-commit">
+      <created>1642423091440</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642423091440</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +361,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cloud-first-commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="cloud-first-commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
