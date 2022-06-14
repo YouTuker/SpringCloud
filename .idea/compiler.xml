@@ -7,18 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-provider-payment8002" />
         <module name="cloudAlibaba-provide-payment9002" />
+        <module name="cloud-provider-payment8001" />
+        <module name="cloud-eureka-server7003" />
         <module name="cloudAlibaba-provide-payment9001" />
-        <module name="OrderNacos" />
+        <module name="cloud-eureka-server7002" />
         <module name="cloud-6001" />
-        <module name="cloud-eureka-server1-7003" />
-        <module name="Gateway9527" />
+        <module name="cloud-feign10010" />
         <module name="cloud-cosumer-6003" />
+        <module name="cloud-gateway9527" />
         <module name="Initial_test" />
-        <module name="cloud-eureka-server" />
-        <module name="Feign-cloud" />
-        <module name="cloud-config-nacos-client" />
         <module name="cloud-sentinel-8080" />
+        <module name="cloud-config-nacos-client3377" />
         <module name="cloud-config-3344" />
       </profile>
     </annotationProcessing>
@@ -26,6 +27,7 @@
       <module name="cloud-7001" target="8" />
       <module name="cloud-cosumer-6002" target="1.8" />
       <module name="cloud-eurekak-server2" target="1.8" />
+      <module name="OrderNacos" target="1.8" />
       <module name="Spring_Initializr" target="1.8" />
     </bytecodeTargetLevel>
   </component>

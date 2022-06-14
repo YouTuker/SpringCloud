@@ -1,15 +1,17 @@
 server:
-  port: 9001
+  port: 10010
 
 spring:
   application:
-    name: cloudAlibaba-provide-payment
+    name: Feign-Cloud
+
   eureka:
     client:
       service-url:
         defaultZone: http://localhost:7002/eureka/,http://localhost:7003/eureka/
       register-with-eureka: true
       fetch-registry: true
+
 
 management:
   endpoint:

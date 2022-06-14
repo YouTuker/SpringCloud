@@ -11,8 +11,6 @@ import javax.annotation.Resource;
 @RestController
 public class EurekaController {
 
-    @Resource
-    private DiscoveryClient discoveryClient;
 
 
 
