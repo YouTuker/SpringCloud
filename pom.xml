@@ -15,7 +15,7 @@
         <module>cloud-eureka-server7003</module>
         <module>cloudAlibaba-provide-payment9001</module>
 		<module>cloudAlibaba-provide-payment9002</module>
-        <module>cloud-config-3344</module>
+        <module>cloud-config-center3344</module>
         <module>cloud-config-nacos-client3377</module>
         <module>cloud-sentinel-8080</module>
         <module>cloud-gateway9527</module>
@@ -94,12 +94,7 @@
     </dependencyManagement>
     <dependencies>
 
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-            <version>2.2.7.RELEASE</version>
-            <type>pom</type>
-        </dependency>
+
 
         <!-- https://mvnrepository.com/artifact/com.alibaba.cloud/spring-cloud-starter-alibaba-nacos-discovery -->
 
